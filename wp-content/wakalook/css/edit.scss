@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+
+    #main {
+        align-items: center;
+    }
+
+    /* edit.php */
+    .logo-img-wrapper {
+        img {
+            height: 100%;
+        }
+    }
+
+    .palette {
+        width: 100%;
+        display: flex;
+    }
+
+    #color-palette {
+        visibility: hidden;
+        position: absolute;
+        top: 0px;
+        left: 525px;
+    }
+
+    .edit-btn {
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 10px;
+
+        img{
+            object-fit: cover;
+            height: 50px;
+        }
+
+        &.right-btn {
+            margin-left: auto;
+        }
+    }
+
+    #text-button {
+        .text-filed {
+            height: 40px;
+            font-size: 18px;
+            margin-left: 10px;
+        }
+
+        #text-size-number-field {
+            margin-top: 3px;
+            height: 15px;
+            width: 42px;
+            padding: 1px 2px;
+
+        }
+    }
+
+    #stamp-button {
+        margin: 5px 0 5px 5px;
+        #stamp-field-box {
+            display: flex;
+            align-items: center;
+            #stamp-size-number-field {
+                margin-top: 3px;
+                height: 25px;
+                width: 42px;
+                padding: 1px 2px;
+            }
+            #stamp-percent-text {
+                margin-top: 3px;
+                height: 25px;
+                width: 42px;
+                padding: 1px 2px;
+                text-align: center;
+                vertical-align: middle;
+            }
+        }
+    }
+
+    #layerd-canvas-area {
+        width: 100%;
+        height: 100%;
+
+        canvas {
+            display: block;
+        }
+    }
+}
+
+.stamp-image-list {
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    background-color: gainsboro;
+    overflow-x: scroll;
+    display: none;
+
+    img {
+        display: inline-block;
+        padding: 5px;
+        height: 90px;
+    }
+}
+
+
+
+#blank {
+    padding-top: 95px;
+    margin: 0 5px;
+}
+

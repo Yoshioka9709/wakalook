@@ -1,0 +1,341 @@
+.docBox {
+
+    display: flex;
+
+    min-height: 70%;
+
+}
+
+
+
+.docContent {
+
+    border: solid 1px gray;
+
+    min-height: 600px;
+
+    padding: 10px;
+
+}
+
+
+
+.docSideMenu {
+
+    position: fixed;
+
+    border: solid 1px gray;
+
+    width: 300px;
+
+    height: 600px;
+
+}
+
+.breadcrumbs {
+
+    display: flex;
+
+}
+
+
+
+.breadcrumbs li::after {
+
+    content: '>';
+
+    display: inline-block;
+
+    padding: 0 10px;
+
+    margin-right: 20px;
+
+}
+
+
+
+.breadcrumbs li:last-child::after {
+
+    display: none;
+
+}
+
+
+
+.infoBlock {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    border: solid 1px blue;
+
+    background-color: skyblue;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.infoTitle {
+
+    padding: 5px;
+
+    margin-top: 5px;
+
+    margin-left: 5px;
+
+    background-color: blue;
+
+    color: white;
+
+    width: fit-content;
+
+}
+
+
+
+.infoMessage, .warnMessage {
+
+    width: 100%;
+
+}
+
+
+
+.warnBlock {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    border: solid 1px orange;
+
+    background-color: yellow;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.warnTitle {
+
+    padding: 5px;
+
+    margin-top: 5px;
+
+    margin-left: 5px;
+
+    background-color: orange;
+
+    color: white;
+
+    width: fit-content;
+
+}
+
+
+
+.inline {
+
+    display: inline;
+
+    border: solid 1px black;
+
+    background-color: lightslategray;
+
+    padding: 0px 10px;
+
+}
+
+
+
+.loadDate {
+
+    font-size: 14px;
+
+    color: gray;
+
+}
+
+
+
+.tableOfContents {
+
+    border: solid 1px black;
+
+    background-color: #ffeedd;
+
+}
+
+
+
+.linkTableOfContents {
+
+    display: block;
+
+    text-decoration: none;
+
+    margin-top: 5px;
+
+    margin-bottom: 5px;
+
+    margin-left: 5px;
+
+}
+
+
+
+.linkTableOfContents:hover {
+
+    opacity: 0.5;
+
+}
+
+
+
+.linkTableOfContents:visited {
+
+    color: blue;
+
+}
+
+
+
+.titleTableOfContents {
+
+    margin-top: 5px;
+
+    margin-bottom: 5px;
+
+    margin-left: 5px;
+
+    width: fit-content;
+
+    padding: 5px;
+
+    background-color: brown;
+
+    color: white;
+
+}
+
+
+
+.sideLink {
+
+    margin-top: 5px;
+
+    margin-bottom: 5px;
+
+    display: block;
+
+    text-decoration: none;
+
+    color: black;
+
+    white-space: nowrap;
+
+}
+
+
+
+details:hover {
+
+    cursor: pointer;
+
+}
+
+
+
+.sideDetails {
+
+    white-space: nowrap;
+
+}
+
+
+
+table {
+
+    border-collapse: collapse;
+
+}
+
+
+
+th, td {
+
+    border: solid 1px black;
+
+}
+
+.summaryLink {
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+.summaryLink:hover {
+
+    opacity: 0.5;
+
+}
+
+.breadLink {
+
+    color: black;
+
+}
+
+.breadLink:hover {
+
+    opacity: 0.5;
+
+}
+
+.inlineLink {
+
+    color: blue;
+
+    text-decoration: none;
+
+}
+
+.inlineLink:visited {
+
+    text-decoration: none;
+
+}
+
+@media (min-width: 897px) {
+
+    .docContent {
+
+        margin-left: 300px;
+
+        width: calc(100% - 300px);
+
+    }
+
+}
+
+@media screen and (max-width: 896px){
+
+    .docContent {
+
+        margin-left: 0px;
+
+        width: 100%;
+
+    }
+
+}

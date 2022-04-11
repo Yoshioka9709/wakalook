@@ -1,0 +1,154 @@
+/* ヘッダータグ内 --------------------------------*/
+#header {
+  display: flex;
+}
+
+#header2 {
+  display: flex;
+  border-left  : 1px solid orange;
+  border-right : 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+#logo {
+  width: auto;
+  height: 160px;
+}
+.header {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-right: 0px;
+  margin-left: auto;
+  padding-left: 30px;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
+#header2 .calculation {
+  width: 200px;
+  height: auto;
+  margin-top: 5px;
+}
+#header2 .math {
+  border: 2px solid black;
+  margin: 50px 30px;
+}
+#icon {
+  width: 80px;
+  height: 80px;
+  margin: 50px 30px;
+}
+#icon2 {
+  width: 80px;
+  height: 80px;
+  margin: 50px 50px 0 auto;
+}
+
+#control {
+  border-left  : 1px solid black;
+  border-right : 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+#plus {
+  width: 80px;
+  height: 80px;
+  margin: 50px 30px;
+}
+#btn .button{
+  border: 2px solid black;
+  margin: 40px 30px;
+}
+.button {
+  height: auto;
+  width: 160px;
+}
+/* フッタータグ内 --------------------------------*/
+footer div {
+  text-align: right;
+}
+.footer {
+  margin-left : auto;
+  margin-right: 20px;
+  text-decoration: none;
+  text-align: right;
+  color: black;
+
+}
+footer p {
+  text-align: center;
+}
+
+/* ファイル edit*/
+ #file {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+}
+#folderPlus {
+  width: 50px;
+  height: auto;
+  margin-left: 20%;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 5% 20%;
+}
+th, td {
+  text-align: center;
+  width: 10%;
+}
+table img {
+  width: 40%;
+  height: auto;
+}
+#table2 .border {
+  border-top: 2px solid black;
+}
+#document {
+  width: 30%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#main{
+  background-color: gainsboro;
+  display: flex;
+}
+.icon3 {
+  background-color: white;
+  border: 1px solid black;
+  width: 80px;
+  height: auto;
+
+}
+
+#blank {
+  height: 1000px;
+}
+
+#drawCanvas  {
+  width: 100%;
+  height: 100%;
+  border: solid 0.3px black;
+}
+
+
+
+
+/* 画面を小さくしたときに白くする -----*/
+#only {
+  display: none;
+}
+@media screen and (max-width: 1000px){
+  #WakaLook {
+    display: none;
+  }
+  #only {
+    display: block;
+  }
+}
